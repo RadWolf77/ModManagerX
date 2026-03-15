@@ -1,0 +1,13 @@
+<RCC>
+    <qresource>
+        <file>images/GrayMMX.png</file>
+        <file>images/MMX.svg</file>
+        <file>images/Mod Manager X.ico</file>
+        <file>images/RadWare.svg</file>
+        <file>ImportDialog.ui.qml</file>
+        <file>Main.qml</file>
+        <file>MainMenu.ui.qml</file>
+        <file>MainScreen.ui.qml</file>
+        <file>mmx.qmlproject</file>
+    </qresource>
+</RCC>

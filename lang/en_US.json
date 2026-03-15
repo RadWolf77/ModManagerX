@@ -1,0 +1,40 @@
+ {
+  "APP_TITLE": "Mod Manager X",
+  "IMPORT_BTN": "Import Pack",
+  "CANCEL_BTN": "Nevermind",
+  "FILE_PACKSELECT": "Select ModPack File",
+
+  "DIALOG_TITLE": "Import ModPack",
+  "DIALOG_ACCEPT": "Import",
+  "DIALOG_CANCEL": "Cancel",
+  "DIALOG_PATHLABEL": "Path:",
+  "DIALOG_LOCATIONLABEL": "Location:",
+  "DIALOG_NAMELABEL": "Name:",
+
+
+  "MAIN_LATESTVERSION": "Latest Version",
+  "MAIN_CURRENTVERSION": "Current Version",
+  "MAIN_UPDATEBUTTON": "Update",
+
+  "MENU_IMPORT":  "Import File",
+  "MENU_RESYNC": "Resync",
+  "MENU_FORCE": "Force Update",
+  "MENU_OPENDIR": "Open Pack Dir",
+  "MENU_REINSTALL": "Reinstall",
+  "MENU_UNINSTALL": "Uninstall",
+  "MENU_EXIT": "Quit",
+
+  "BAR_OPEN": "Open",
+  "BAR_CLOSE": "Quit",
+
+  "STATUS_UPTODATE": "Up to date",
+  "STATUS_UPDATEAVAILABLE": "Update",
+  "STATUS_NOTINSTALLED": "Install",
+  "STATUS_ERROR": "ERROR",
+  "STATUS_WARNING": "[!] Install [!]",
+
+
+  "NOTICE_RepoUnavailable": "Error: Could not contact the repository server.",
+  "NOTICE_MissingPlaceholders": "Error: undefined placeholders.",
+  "NOTICE_FilesAlreadyPresent": "Warning: Files exist, but no version file was found."
+}

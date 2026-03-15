@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="129.44" height="72" viewBox="0 0 129.44 72">
+  <defs>
+    <style>
+      .b {
+        fill: #ff2424;
+      }
+
+      .b, .c, .d, .e, .f {
+        stroke-width: 0px;
+      }
+
+      .c {
+        fill: #000;
+      }
+
+      .d {
+        fill: #178bff;
+      }
+
+      .e {
+        fill: #2eff2e;
+      }
+
+      .f {
+        fill: #ffef24;
+      }
+    </style>
+  </defs>
+  <path class="c" d="M93.42,19.36v52.64h-21.42V0h27.48c8.37,0,14.86,2.07,19.46,6.22,5.13,4.64,7.7,10.53,7.7,17.67s-3.18,13.42-9.55,18.41l12.34,29.7h-22.47l-10.39-23.21v-18.51h1.69c4.5,0,6.75-1.93,6.75-5.8,0-3.41-2.6-5.12-7.81-5.12h-3.8Z"/>
+  <rect class="b" width="72" height="18"/>
+  <rect class="f" x="9" y="18" width="63" height="18"/>
+  <rect class="e" x="18" y="36" width="54" height="18"/>
+  <rect class="d" x="27" y="54" width="45" height="18"/>
+</svg>
