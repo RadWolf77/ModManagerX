@@ -18,6 +18,8 @@ class Backend : public QObject
 
 		Q_PROPERTY(QString getCurrentIconPath READ getCurrentIconPath NOTIFY currentIconPathChanged)
 
+		Q_PROPERTY(bool taskInProgress READ isTaskInProgress NOTIFY taskInProgressChanged)
+
 
 public:
 	static Backend* instance() {
@@ -36,7 +38,9 @@ public:
 	ModPack* getSelectedModPack() const { return selectedModPack; }
 
 	QHash<QString, QString> getUserPlaceholders() { return userPlaceholders; }
-
+	bool isTaskInProgress() { return taskInProgress; }
+	void setTaskInProgress(bool isInProgress);
+	void resetIcon();
 
 	Q_INVOKABLE void loadPlaceholders();
 	Q_INVOKABLE void resyncModPacks();
@@ -51,14 +55,17 @@ signals:
 	void selectedModPackChanged();
 	void currentIconPathChanged();
 	void showImportDialogRequested(QString name, QString location, QString path, QString file);
+	void taskInProgressChanged();
 
 private:
 	explicit Backend(QObject* parent = nullptr) : QObject(parent) {
 
 		selectedModPack = nullptr;
+		taskInProgress = false;
 
 	}
 
+	bool taskInProgress;
 	QList<ModPack*> modpackMasterList;
 	ModPack* selectedModPack;
 	QString currentIconPath;

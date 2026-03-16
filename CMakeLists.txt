@@ -33,6 +33,8 @@ set(PROJECT_SOURCES
     modpack.cpp
     language.cpp
     language.h
+    theUpdator.cpp
+    theUpdator.h
     ${APP_RESOURCES}
 )
 

@@ -12,6 +12,15 @@
 
 // Functions in backend.cpp help maintain the data that the Backend holds (like the list of ModPacks).
 
+void Backend::setTaskInProgress(bool inProgress) {
+	if (taskInProgress == inProgress) return;
+
+	taskInProgress = inProgress;
+	emit taskInProgressChanged();
+}
+
+
+
 void Backend::loadPlaceholders() {
 	userPlaceholders.clear();
 
@@ -37,6 +46,10 @@ void Backend::loadPlaceholders() {
 }
 
 void checkForMMXFiles() {
+
+	if (Backend::instance()->isTaskInProgress() == true) return;
+
+	Backend::instance()->resetIcon();
 
 	Backend::instance()->clearModpacks();
 
@@ -140,13 +153,19 @@ void Backend::importPackFile(const QString& filePath) {
 	}
 
 	if (QFile::copy(filePath, destinationPath)) {
-		checkForMMXFiles();
+		resyncModPacks();
 	}
 }
 
 Q_INVOKABLE void Backend::resyncModPacks() {
+	if (taskInProgress) return;
+
 	checkForMMXFiles();
 	loadPlaceholders();
+}
+
+void Backend::resetIcon() {
 	currentIconPath = "";
 	emit currentIconPathChanged();
+
 }

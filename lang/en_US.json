@@ -33,7 +33,7 @@
   "STATUS_ERROR": "ERROR",
   "STATUS_WARNING": "[!] Install [!]",
 
-
+  "NOTICE_None" : "",
   "NOTICE_RepoUnavailable": "Error: Could not contact the repository server.",
   "NOTICE_MissingPlaceholders": "Error: undefined placeholders.",
   "NOTICE_FilesAlreadyPresent": "Warning: Files exist, but no version file was found."
