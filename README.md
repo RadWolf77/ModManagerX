@@ -1,6 +1,6 @@
-![MMX](https://starwolves.net/wp-content/uploads/2026/03/ModManagerXTitle.png)
+[![MMX](https://starwolves.net/wp-content/uploads/2026/03/ModManagerXTitle.png)](https://starwolves.net)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-![Qt Version](https://img.shields.io/badge/Qt-5.15%2B-green.svg)
+[![Qt Version](https://img.shields.io/badge/Qt-5.15%2B-green.svg)](https://www.qt.io/development/download-open-source)
 ## 🌎 Overview
 
 Mod Manager X is a lightweight, cross-platform modpack manager built with C++ and Qt. It handles local modpack installations, synchronizes with remote repositories to check for updates, and utilizes dynamic environment placeholders to manage modpacks.
@@ -30,4 +30,4 @@ This program utilizes the wonderful F77Minecraft Font, and that font is licensed
 
 
 #### This program is brought to you by RadWolf! "We are travel through space and time, equations in hand and mind!"
-![RadWare](https://starwolves.net/wp-content/uploads/2026/03/radware_full_light.png)
+[![RadWare](https://starwolves.net/wp-content/uploads/2026/03/radware_full_light.png)](https://starwolves.net)
